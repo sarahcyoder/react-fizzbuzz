@@ -37,8 +37,8 @@ class App extends React.Component {
       <div>
         <div className="header">A Reactful FizzBuzz Application</div>
         <div className="buttons">
-        <button className="increment" onClick={() => this.updateNumber(-1)}>-</button>
-        <button className="decrement" onClick={() => this.updateNumber(+1)}>+</button>
+          <button className="increment" onClick={() => this.updateNumber(-1)}>-</button>
+          <button className="decrement" onClick={() => this.updateNumber(+1)}>+</button>
         </div>
         <br />
         <div className="number">{this.state.display}</div>
